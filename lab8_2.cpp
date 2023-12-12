@@ -3,6 +3,33 @@
 #include<string>
 using namespace std;
 
+char findGrade(double grades){
+	char gg;
+if(grades<=45){
+	gg = 'F';
+}
+else if (grades>45&&grades<=60)
+{
+	gg = 'D';
+}
+else if (grades>60&&grades<=75)
+{
+	gg = 'C';
+}
+else if (grades>75 && grades <=90)
+{
+	gg = 'B';
+}
+else
+{
+	gg = 'A';
+}
+
+
+
+
+return gg;
+}
 //[Missing Code 1] Write definition of the function findGrade() here.
 
 int main(){
